@@ -23,6 +23,7 @@ public class Keyword {
 		driver.findElement(By.id("sblsbb")).click();
 		
 		System.out.println(driver.getTitle());
+		System.out.println("Hello world");
 		
 		driver.quit();
 		
